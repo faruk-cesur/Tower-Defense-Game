@@ -7,9 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_Turret_Main
+  m_Name: m_Ending
   m_Shader: {fileID: 4800000, guid: 881c73b45dda42d4ba29f8c7742329be, type: 3}
-  m_ShaderKeywords: _MK_LIGHTMODEL_LAMBERT _MK_LIGHTTYPE_CEL_SHADE_SIMPLE
+  m_ShaderKeywords: _MK_LIGHTMODEL_LAMBERT _MK_LIGHTTYPE_CEL_SHADE_SIMPLE _MK_RIM
+    _USERIM_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -106,12 +107,12 @@ Material:
     - _DissolveRampSize: 0.25
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.319
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _LightCuts: 3
     - _LightModel: 1
     - _LightSmoothness: 0
-    - _LightThreshold: 1
+    - _LightThreshold: 0.755
     - _LightType: 1
     - _MKEditorShowDetailBehavior: 0
     - _MKEditorShowDissolveBehavior: 0
@@ -125,7 +126,7 @@ Material:
     - _MKEditorShowSketchBehavior: 0
     - _MKEditorShowSpecularBehavior: 0
     - _MKEditorShowTranslucentBehavior: 0
-    - _Metallic: 0.68
+    - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _OutlineSize: 0.02
@@ -133,7 +134,7 @@ Material:
     - _ReflectIntensity: 0.5
     - _ReflectSmoothness: 0
     - _RimIntensity: 0.5
-    - _RimSize: 1.5
+    - _RimSize: 3
     - _RimSmoothness: 0.5
     - _Roughness: 1
     - _Saturation: 1
@@ -154,12 +155,12 @@ Material:
     - _UseDissolve: 0
     - _UseOutline: 0
     - _UseReflection: 0
-    - _UseRim: 0
+    - _UseRim: 1
     - _UseSketch: 0
     - _UseTranslucent: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -167,7 +168,7 @@ Material:
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShadowColor: {r: 0.09648795, g: 0, b: 0.3018868, a: 1}
+    - _ShadowColor: {r: 0.12464387, g: 0, b: 0.4528302, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _TranslucentColor: {r: 1, g: 1, b: 1, a: 0.5}
   m_BuildTextureStacks: []
