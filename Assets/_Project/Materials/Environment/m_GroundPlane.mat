@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_Ending
+  m_Name: m_GroundPlane
   m_Shader: {fileID: 4800000, guid: 881c73b45dda42d4ba29f8c7742329be, type: 3}
-  m_ShaderKeywords: _MK_LIGHTMODEL_LAMBERT _MK_LIGHTTYPE_CEL_SHADE_SIMPLE _USERIM_ON
+  m_ShaderKeywords: _MK_LIGHTMODEL_LAMBERT _MK_LIGHTTYPE_CEL_SHADE_SIMPLE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -111,7 +111,7 @@ Material:
     - _LightCuts: 3
     - _LightModel: 1
     - _LightSmoothness: 0
-    - _LightThreshold: 0.755
+    - _LightThreshold: 0.01
     - _LightType: 1
     - _MKEditorShowDetailBehavior: 0
     - _MKEditorShowDissolveBehavior: 0
@@ -133,7 +133,7 @@ Material:
     - _ReflectIntensity: 0.5
     - _ReflectSmoothness: 0
     - _RimIntensity: 0.5
-    - _RimSize: 3
+    - _RimSize: 1.5
     - _RimSmoothness: 0.5
     - _Roughness: 1
     - _Saturation: 1
@@ -159,7 +159,7 @@ Material:
     - _UseTranslucent: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.13725491, g: 0.15294118, b: 0.17254902, a: 1}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
