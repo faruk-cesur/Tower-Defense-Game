@@ -10,8 +10,8 @@ public class WaveSpawner : MonoBehaviour
     public Transform spawnPoint;
     public float timeBetweenWaves = 5.5f;
     public TextMeshProUGUI waveCountdownText;
-    
-    private float _countdown = 2f; 
+
+    private float _countdown = 2f;
     private int _waveIndex = 0;
     private WaitForSeconds _spawnTimer;
 
@@ -35,7 +35,7 @@ public class WaveSpawner : MonoBehaviour
     private IEnumerator SpawnWave()
     {
         _waveIndex++;
-        
+
         for (int i = 0; i < _waveIndex; i++)
         {
             SpawnEnemy();
@@ -45,6 +45,6 @@ public class WaveSpawner : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        Instantiate(enemyPrefab,spawnPoint.position,spawnPoint.rotation);
+        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }
