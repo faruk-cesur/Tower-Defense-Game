@@ -4426,6 +4426,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5899899417875357894, guid: 0b94da063ffdabc49a28f0f277e20347, type: 3}
     - target: {fileID: 2829608393687750633, guid: 14234b1594a6e454381d961c4fed5ba4, type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 616167321}
+    - target: {fileID: 2829608393687750633, guid: 14234b1594a6e454381d961c4fed5ba4, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 9139686620677966321, guid: 22cf6baf9e8bc2445932cc96887464ed, type: 3}
+    - target: {fileID: 2829608393687750633, guid: 14234b1594a6e454381d961c4fed5ba4, type: 3}
       propertyPath: partToRotate
       value: 
       objectReference: {fileID: 681387215}
@@ -4480,6 +4488,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 319945336755688369, guid: 14234b1594a6e454381d961c4fed5ba4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 14234b1594a6e454381d961c4fed5ba4, type: 3}
+--- !u!4 &616167321 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1130073807375834424, guid: 14234b1594a6e454381d961c4fed5ba4, type: 3}
+  m_PrefabInstance: {fileID: 616167320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &623267940
 GameObject:
   m_ObjectHideFlags: 0
